@@ -1,0 +1,38 @@
+/**
+ * Aligent CheckItOut
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/_utils.scss
+ * Some high level utility classes to apply to the #app div for use during development
+ *
+ */
+
+#aligent-checkitout {
+  background: white;
+
+  .instructions {
+    margin-top: 45px;
+  }
+
+  #debugger{
+    border: none;
+    margin:auto;
+    width: 750px;
+    height: 700px;
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  :focus {
+    outline:none;
+  }
+  .right-align{
+    text-align: right;
+  }
+
+}
+

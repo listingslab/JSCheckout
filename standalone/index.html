@@ -1,0 +1,51 @@
+<!doctype html>
+<!--
+/**
+* Aligent CheckItOut
+*
+*
+* @category   Aligent
+* @package    aligent-checkitout
+* @copyright  Copyright (c) 2017 Aligent
+* @author     Chris Dorward <chris.dorward@aligent.com.au>
+*
+* index.html
+* Run the app in standalone mode
+*
+*/
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Standalone</title>
+        <link rel="stylesheet" href="css/swg_2.css">
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVufI0xiu3YqzPC8C9lm2q02rYH1R1FBo&libraries=places"></script>
+    </head>
+    <body>
+
+    <link rel="stylesheet" href="./css/aligent-checkitout.min.css">
+    <script src="./js/aligent-checkitout.min.js"></script>
+
+        <div id="aligent-checkitout">
+            <pre class="debug">
+                <textarea id="debugger"></textarea>
+            </pre>
+            <div class="screens">
+                <div class="flex-grid">
+                    <div class="col-middle flex-grid-col" id="middle">
+                        <div class="loader">
+                            <img
+                                alt="loading..."
+                                src="http://listingslab.com/wp-content/uploads/2017/06/ajax-loader.gif"
+                            />
+                            &nbsp;&nbsp;&nbsp;loading...
+                        </div>
+                    </div>
+                    <div class="col-right flex-grid-col" id="right"></div>
+                    <div class="col-left flex-grid-col" id="left"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

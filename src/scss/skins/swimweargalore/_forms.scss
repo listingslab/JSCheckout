@@ -1,0 +1,84 @@
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_forms.scss
+ * Form inputs etc
+ *
+ */
+@import './variables';
+
+#aligent-checkitout {
+
+  .input-ticked {
+    background-image: url('http://listingslab.com/wp-content/uploads/2017/06/input-tick.png');
+    background-repeat:no-repeat;
+    background-position: right;
+  }
+
+  .input-error {
+    transition: border-color $trans-duration ease-out;
+    border: 1px solid $colour-pink;
+  }
+
+  .input-error-fade {
+    transition: border-color $trans-duration ease-out;
+    border: 1px solid $colour-border;
+  }
+
+  .uppercase-field {
+    text-transform: uppercase;
+  }
+
+  .email-form {
+    margin-top: 25px;
+  }
+
+  .btn-place-order {
+    margin-top: 25px;
+  }
+
+  #message{
+    margin-top: 50px;
+  }
+  .form-label{
+    font-size:13px;
+  }
+
+  input[type="text"] {
+    padding-left: 10px;
+    height:50px;
+    font-size:20px;
+    line-height: normal;
+    border-radius: 3px;
+  }
+
+  input[type="password"] {
+    border-radius: 3px;
+    background: $colour-white;
+    padding-left: 10px;
+    height:50px;
+    font-size:20px;
+    line-height: normal;
+  }
+
+  input[type="submit"], input[type="button"]{
+    border-radius: 3px;
+    border: 1px solid $colour-border;
+    background: $colour-button;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px;
+    color: $colour-white;
+    font-weight: bold;
+  }
+
+  input[type="button"]:hover, input[type="submit"]:hover {
+    background: $colour-button-over;
+  }
+
+}

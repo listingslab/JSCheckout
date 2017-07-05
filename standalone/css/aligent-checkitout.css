@@ -1,0 +1,702 @@
+/**
+ * Aligent CheckItOut
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/screen.scss
+ * Main Sass entry point
+ *
+ */
+/**
+ * Aligent CheckItOut
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/utils/_layout.scss
+ * Layout using flexbox
+ *
+ */
+#aligent-checkitout .flex-grid {
+  display: flex; }
+
+#aligent-checkitout .flex-grid-col {
+  flex: 1;
+  padding: 10px; }
+
+#aligent-checkitout .col-left {
+  order: 2; }
+
+#aligent-checkitout .col-middle {
+  order: 4; }
+
+#aligent-checkitout .col-right {
+  order: 6; }
+
+@media (max-width: 768px) {
+  #aligent-checkitout .flex-grid {
+    display: block; } }
+
+/**
+ * Aligent CheckItOut
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/_utils.scss
+ * Some high level utility classes to apply to the #app div for use during development
+ *
+ */
+#aligent-checkitout {
+  background: white; }
+  #aligent-checkitout .instructions {
+    margin-top: 45px; }
+  #aligent-checkitout #debugger {
+    border: none;
+    margin: auto;
+    width: 750px;
+    height: 700px;
+    font-size: 16px;
+    line-height: 17px; }
+  #aligent-checkitout :focus {
+    outline: none; }
+  #aligent-checkitout .right-align {
+    text-align: right; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_swimweargalore.scss
+ * Imports all the skin files
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_forms.scss
+ * Form inputs etc
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout .input-ticked {
+  background-image: url("http://listingslab.com/wp-content/uploads/2017/06/input-tick.png");
+  background-repeat: no-repeat;
+  background-position: right; }
+
+#aligent-checkitout .input-error {
+  transition: border-color 750ms ease-out;
+  border: 1px solid #f88379; }
+
+#aligent-checkitout .input-error-fade {
+  transition: border-color 750ms ease-out;
+  border: 1px solid #e3e4e6; }
+
+#aligent-checkitout .uppercase-field {
+  text-transform: uppercase; }
+
+#aligent-checkitout .email-form {
+  margin-top: 25px; }
+
+#aligent-checkitout .btn-place-order {
+  margin-top: 25px; }
+
+#aligent-checkitout #message {
+  margin-top: 50px; }
+
+#aligent-checkitout .form-label {
+  font-size: 13px; }
+
+#aligent-checkitout input[type="text"] {
+  padding-left: 10px;
+  height: 50px;
+  font-size: 20px;
+  line-height: normal;
+  border-radius: 3px; }
+
+#aligent-checkitout input[type="password"] {
+  border-radius: 3px;
+  background: #fff;
+  padding-left: 10px;
+  height: 50px;
+  font-size: 20px;
+  line-height: normal; }
+
+#aligent-checkitout input[type="submit"], #aligent-checkitout input[type="button"] {
+  border-radius: 3px;
+  border: 1px solid #e3e4e6;
+  background: #0058a1;
+  border-radius: 3px;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold; }
+
+#aligent-checkitout input[type="button"]:hover, #aligent-checkitout input[type="submit"]:hover {
+  background: #46b5e5; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_email.scss
+ * Email Screen
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout .loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/_typography.scss
+ * Typography
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout h1, #aligent-checkitout h2, #aligent-checkitout h3, #aligent-checkitout h4, #aligent-checkitout h5, #aligent-checkitout h6 {
+  color: #000;
+  text-align: center;
+  border: none; }
+
+#aligent-checkitout input {
+  padding: 0; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/screens/_screens.scss
+ * Imports screens
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_delivery.scss
+ * Header
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout #delivery-div .authority {
+  margin-bottom: 20px; }
+  #aligent-checkitout #delivery-div .authority label {
+    padding-top: 2px; }
+
+#aligent-checkitout #delivery-div .delivery-address-not-found {
+  text-align: center;
+  margin-bottom: 10px; }
+
+#aligent-checkitout #delivery-div #billing-address-hidden {
+  margin-top: 20px; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_email.scss
+ * Email Screen
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_header.scss
+ * Header
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout .screen-title .screen-header {
+  border-bottom: 2px solid #46b5e5; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_password.scss
+ * Password Div
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout #password-div .link-checkout-guest {
+  margin-top: 15px;
+  text-align: right; }
+  #aligent-checkitout #password-div .link-checkout-guest a {
+    color: black;
+    font-size: 12px;
+    text-decoration: underline; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_payment.scss
+ * Header
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout #payment-div .btn-place-order {
+  margin-top: 20px; }
+
+#aligent-checkitout #payment-div .newsletter {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  margin-bottom: 20px; }
+  #aligent-checkitout #payment-div .newsletter input {
+    border: 1px solid green; }
+
+#aligent-checkitout #payment-div .free-shipping {
+  border: 1px solid #0058a1;
+  border-radius: 3px;
+  color: #0058a1;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px; }
+  #aligent-checkitout #payment-div .free-shipping .bold {
+    font-weight: bold; }
+
+#aligent-checkitout #payment-div .totals {
+  border: 1px solid #e3e4e6;
+  background: #e9e9e9;
+  padding: 25px;
+  border-radius: 3px; }
+  #aligent-checkitout #payment-div .totals .subtotal, #aligent-checkitout #payment-div .totals .discounts, #aligent-checkitout #payment-div .totals .promocodes, #aligent-checkitout #payment-div .totals .giftcards, #aligent-checkitout #payment-div .totals .shipping, #aligent-checkitout #payment-div .totals .grandtotal {
+    display: flex; }
+  #aligent-checkitout #payment-div .totals .total-col {
+    flex: 1; }
+  #aligent-checkitout #payment-div .totals .flex-right {
+    display: flex;
+    justify-content: flex-end; }
+  #aligent-checkitout #payment-div .totals .grandtotal {
+    margin-top: 25px;
+    font-weight: bold; }
+
+#aligent-checkitout #payment-div .payment-info {
+  margin-top: 20px; }
+
+#aligent-checkitout #payment-div .payment-separator {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e3e4e6; }
+
+#aligent-checkitout #payment-div .afterpay-link {
+  color: black;
+  text-decoration: underline; }
+
+#aligent-checkitout #payment-div .promo {
+  display: flex; }
+  #aligent-checkitout #payment-div .promo .input-promo {
+    flex: 4;
+    margin-right: 10px; }
+  #aligent-checkitout #payment-div .promo .submit-promo {
+    flex: 1;
+    justify-content: flex-end; }
+
+#aligent-checkitout #payment-div .gift {
+  display: flex; }
+  #aligent-checkitout #payment-div .gift .input-gift {
+    flex: 4;
+    margin-right: 10px; }
+  #aligent-checkitout #payment-div .gift .submit-gift {
+    flex: 1;
+    justify-content: flex-end; }
+
+#aligent-checkitout #payment-div .expiry-cvc {
+  display: flex; }
+  #aligent-checkitout #payment-div .expiry-cvc .expiry {
+    display: block;
+    padding-right: 5px; }
+  #aligent-checkitout #payment-div .expiry-cvc .cvc {
+    display: block;
+    padding-left: 5px; }
+
+#aligent-checkitout #payment-div .payment-options {
+  display: flex;
+  margin-top: 25px; }
+  #aligent-checkitout #payment-div .payment-options .card {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    cursor: pointer; }
+  #aligent-checkitout #payment-div .payment-options .paypal {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    cursor: pointer; }
+  #aligent-checkitout #payment-div .payment-options .afterpay {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    cursor: pointer; }
+
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_order-summary.scss
+ * Order Summary Screen
+ *
+ */
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/_variables.scss
+ * Manipulate project variables for swimweargalore
+ *
+ */
+/* _________________
+ Swimwear Galore
+  #46b5e5 Main Light Blue Brand Colour
+  #0058a1 Main Dark Blue Brand Colour
+  #0058a1 Button BG
+  #e9e9e9 Total Panel BG
+  #f5f5f5 Bottom Panel BG
+  #3db3e6 Bottom Panel BG Blue Heading
+  #e3e4e6 Grey Border
+  #000000 Black Text
+  #ffffff White Text
+ ____________________ */
+#aligent-checkitout #summary-div .summary-total {
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+#aligent-checkitout #summary-div .summary-item {
+  display: flex;
+  border: 1px solid #e3e4e6;
+  margin-bottom: 10px;
+  padding: 5px;
+  height: 165px; }
+  #aligent-checkitout #summary-div .summary-item .summary-item-image {
+    flex: 1; }
+    #aligent-checkitout #summary-div .summary-item .summary-item-image img {
+      max-height: 150px;
+      max-width: 65%; }
+  #aligent-checkitout #summary-div .summary-item .summary-item-info {
+    flex: 1; }
+    #aligent-checkitout #summary-div .summary-item .summary-item-info .item-title {
+      margin-top: 20px;
+      font-weight: bold; }
+    #aligent-checkitout #summary-div .summary-item .summary-item-info .item-price {
+      margin-top: 5px; }
+    #aligent-checkitout #summary-div .summary-item .summary-item-info .item-actions {
+      font-size: 12px; }
+
+.black-link {
+  color: black;
+  text-decoration: underline; }
+
+.font-small {
+  font-size: 12px; }
+
+.danger {
+  color: #46b5e5; }
+
+.warning {
+  color: #46b5e5; }
+
+.warning-border {
+  border: 1px solid #f88379; }
+
+.info {
+  color: #0058a1; }
+
+.success {
+  color: #0058a1; }

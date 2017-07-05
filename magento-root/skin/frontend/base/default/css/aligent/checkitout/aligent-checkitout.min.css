@@ -1,0 +1,35 @@
+#aligent-checkitout .flex-grid{display:flex}#aligent-checkitout .flex-grid-col{flex:1;padding:10px}
+#aligent-checkitout .col-left{order:2}#aligent-checkitout .col-middle{order:4}#aligent-checkitout .col-right{order:6}
+@media(max-width:768px){#aligent-checkitout .flex-grid{display:block}}#aligent-checkitout{background:white}
+#aligent-checkitout .instructions{margin-top:45px}#aligent-checkitout #debugger{border:0;margin:auto;width:500px;height:300px;font-size:11px;line-height:12px}
+#aligent-checkitout :focus{outline:0}#aligent-checkitout .right-align{text-align:right}
+#aligent-checkitout .email-form{margin-top:25px}#aligent-checkitout .btn-place-order{margin-top:25px}
+#aligent-checkitout #message{margin-top:50px}#aligent-checkitout input[type="text"]{background:#fff;padding-left:10px;height:50px;font-size:20px;line-height:normal;border-radius:3px}
+#aligent-checkitout input[type="password"]{border-radius:3px;background:#fff;padding-left:10px;height:50px;font-size:20px;line-height:normal}
+#aligent-checkitout input[type="submit"],#aligent-checkitout input[type="button"]{border-radius:3px;border:1px solid #e3e4e6;background:#0058a1;border-radius:3px;width:100%;padding:15px;color:#fff;font-weight:bold}
+#aligent-checkitout input[type="button"]:hover,#aligent-checkitout input[type="submit"]:hover{background:#46b5e5}
+#aligent-checkitout .danger{color:#46b5e5;font-weight:bold}#aligent-checkitout .warning{color:#46b5e5;font-weight:bold}
+#aligent-checkitout .warning-border{border:1px solid #f88379}#aligent-checkitout .info{color:#0058a1;font-weight:bold}
+#aligent-checkitout .success{color:#0058a1;font-weight:bold}#aligent-checkitout .loader{display:flex;justify-content:center;align-items:center;margin-top:75px}
+#aligent-checkitout h1,#aligent-checkitout h2,#aligent-checkitout h3,#aligent-checkitout h4,#aligent-checkitout h5,#aligent-checkitout h6{color:#000;text-align:center;border:0}
+#aligent-checkitout input{padding:0}#aligent-checkitout input[type="submit"]{font-size:16px}
+#aligent-checkitout .screen-title .screen-header{border-bottom:2px solid #46b5e5}
+#aligent-checkitout #password-div .link-checkout-guest{margin-top:15px;text-align:right}
+#aligent-checkitout #password-div .link-checkout-guest a{color:black;font-size:12px;text-decoration:underline}
+#aligent-checkitout #payment-div .payment-info{margin-top:20px}#aligent-checkitout #payment-div .payment-separator{margin-top:25px;margin-bottom:25px;border-bottom:1px solid #e3e4e6}
+#aligent-checkitout #payment-div .afterpay-link{color:black;text-decoration:underline}
+#aligent-checkitout #payment-div .promo{display:flex}#aligent-checkitout #payment-div .promo .input-promo{flex:4;margin-right:10px}
+#aligent-checkitout #payment-div .promo .submit-promo{flex:1;justify-content:flex-end}
+#aligent-checkitout #payment-div .gift{display:flex}#aligent-checkitout #payment-div .gift .input-gift{flex:4;margin-right:10px}
+#aligent-checkitout #payment-div .gift .submit-gift{flex:1;justify-content:flex-end}
+#aligent-checkitout #payment-div .expiry-cvc{display:flex}#aligent-checkitout #payment-div .expiry-cvc .expiry{display:block;padding-right:5px}
+#aligent-checkitout #payment-div .expiry-cvc .cvc{display:block;padding-left:5px}
+#aligent-checkitout #payment-div .payment-options{display:flex;margin-top:25px}#aligent-checkitout #payment-div .payment-options .card{display:flex;flex:1;justify-content:flex-end;cursor:pointer}
+#aligent-checkitout #payment-div .payment-options .paypal{display:flex;flex:1;justify-content:center;cursor:pointer}
+#aligent-checkitout #payment-div .payment-options .afterpay{display:flex;flex:1;justify-content:flex-start;cursor:pointer}
+#aligent-checkitout #summary .summary-total{font-weight:bold;margin-bottom:10px}#aligent-checkitout #summary .summary-item{display:flex;border:1px solid #e3e4e6;margin-bottom:10px;padding:5px}
+#aligent-checkitout #summary .summary-item .summary-item-image{flex:1}#aligent-checkitout #summary .summary-item .summary-item-image img{max-height:250px;max-width:70%}
+#aligent-checkitout #summary .summary-item .summary-item-info{flex:1}#aligent-checkitout #summary .summary-item .summary-item-info .item-title{margin-top:20px;font-weight:bold}
+#aligent-checkitout #summary .summary-item .summary-item-info .item-price{margin-top:5px}
+#aligent-checkitout #summary .summary-item .summary-item-info .item-actions{font-size:12px}
+.black-link{color:black;text-decoration:underline}.font-small{font-size:12px}

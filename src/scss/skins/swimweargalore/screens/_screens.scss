@@ -1,0 +1,20 @@
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/screens/_screens.scss
+ * Imports screens
+ *
+ */
+@import '../variables';
+@import './screens/delivery';
+@import './screens/email';
+@import './screens/header';
+@import './screens/password';
+@import './screens/payment';
+@import './screens/summary';
+

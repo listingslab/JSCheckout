@@ -1,0 +1,19 @@
+/**
+ * Aligent CheckItOut
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/screen.scss
+ * Main Sass entry point
+ *
+ */
+
+@import 'layout';
+@import 'utils';
+
+// Load an existing or create a new skin
+@import 'skins/swimweargalore/skin';
+

@@ -1,0 +1,148 @@
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_payment.scss
+ * Header
+ *
+ */
+@import '../../variables';
+
+#aligent-checkitout {
+  #payment-div{
+
+    .btn-place-order{
+      margin-top: 20px;
+    }
+
+    .newsletter {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+      margin-bottom: 20px;
+      input {
+        border: 1px solid green;
+      }
+    }
+
+    .free-shipping {
+      border: 1px solid $colour-brand-dark;
+      border-radius: 3px;
+      color: $colour-brand-dark;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+
+      .bold {
+        font-weight: bold;
+      }
+    }
+
+    .totals {
+      border: 1px solid $colour-border;
+      background: $colour-payment-bg;
+      padding: 25px;
+      border-radius: 3px;
+      .subtotal, .discounts, .promocodes, .giftcards, .shipping, .grandtotal {
+        display: flex;
+      }
+      .total-col{
+        flex: 1;
+      }
+      .flex-right{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .grandtotal{
+        margin-top: 25px;
+        font-weight:bold;
+      }
+    }
+
+
+    .payment-info{
+      margin-top: 20px;
+    }
+
+    .payment-separator{
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid $colour-border;
+    }
+
+    .afterpay-link{
+      color: black;
+      text-decoration: underline;
+    }
+
+
+    .promo {
+      display: flex;
+      .input-promo{
+        flex: 4;
+        margin-right:10px;
+      }
+      .submit-promo{
+        flex: 1;
+        justify-content: flex-end;
+      }
+    }
+
+    .gift {
+      display: flex;
+      .input-gift{
+        flex: 4;
+        margin-right:10px;
+      }
+      .submit-gift{
+        flex: 1;
+        justify-content: flex-end;
+      }
+    }
+
+    .expiry-cvc {
+      display: flex;
+      .expiry {
+        display: block;
+        padding-right:5px;
+
+      }
+      .cvc {
+        display: block;
+        padding-left:5px;
+      }
+    }
+
+    .payment-options{
+      display: flex;
+      margin-top: 25px;
+
+      .card {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        cursor: pointer;
+      }
+
+      .paypal {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .afterpay {
+        display: flex;
+        flex: 1;
+        justify-content: flex-start;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}

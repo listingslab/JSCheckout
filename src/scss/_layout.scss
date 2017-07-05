@@ -1,0 +1,48 @@
+/**
+ * Aligent CheckItOut
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/utils/_layout.scss
+ * Layout using flexbox
+ *
+ */
+
+#aligent-checkitout {
+
+  .flex-grid {
+    display: flex;
+  }
+
+  .flex-grid-col {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .col-left {
+    order: 2;
+  }
+  .col-middle {
+    order: 4;
+  }
+  .col-right {
+    order: 6;
+  }
+
+  @media (max-width: 768px) {
+    .flex-grid {
+      display: block;
+      .col-left {
+      }
+      .col-middle {
+      }
+      .col-right {
+      }
+    }
+
+  }
+
+}

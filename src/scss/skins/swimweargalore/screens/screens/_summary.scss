@@ -1,0 +1,58 @@
+/**
+ * Swimwear Galore CheckItOut Skin
+ *
+ * @category   Aligent
+ * @package    aligent-checkitout
+ * @copyright  Copyright (c) 2017 Aligent
+ * @author     Chris Dorward <chris.dorward@aligent.com.au>
+ *
+ * src/scss/skins/swimweargalore/partials/screens/_order-summary.scss
+ * Order Summary Screen
+ *
+ */
+@import '../../variables';
+
+#aligent-checkitout {
+  #summary-div {
+
+    .summary-total {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .summary-item {
+      display: flex;
+      border: 1px solid $colour-border;
+      margin-bottom: 10px;
+      padding: 5px;
+      height: 165px;
+
+      .summary-item-image {
+        flex: 1;
+        img {
+          max-height: 150px;
+          max-width: 65%;
+        }
+      }
+      .summary-item-info {
+        flex: 1;
+        .item-title {
+          margin-top: 20px;
+          font-weight: bold;
+        }
+        .item-price {
+          margin-top: 5px;
+        }
+        .item-size {
+        }
+        .item-colour {
+        }
+        .item-actions {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+  }
+}
