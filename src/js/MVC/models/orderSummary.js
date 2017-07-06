@@ -16,7 +16,7 @@ export default {
     {
       "sku": "000003",
       "title": "Fly Away Tankini",
-      "image": "http://listingslab.com/wp-content/uploads/2017/06/cds53ta5386.900_tiedyeabstraction_flyaway_tankini_1.1489675773.jpg",
+      "image": "/skin/frontend/base/default/images/aligent/cartcheckitout/products/cds53ta5386.900_tiedyeabstraction_flyaway_tankini_1.1489675773.jpg",
       "desc": "Fly Away tankinis are in.",
       "size": "14",
       "colour": "Black",
@@ -25,7 +25,7 @@ export default {
     {
       "sku": "000001",
       "title": "Jets Arcadia Bandeau",
-      "image": "http://listingslab.com/wp-content/uploads/2017/06/jetj4954_arcadia_bandeau_4.1496373923.jpg",
+      "image": "/skin/frontend/base/default/images/aligent/cartcheckitout/products/jetj4954_arcadia_bandeau_4.1496373923.jpg",
       "desc": "Jets Arcadia Bandeau",
       "size": "10",
       "colour": "Blue",
@@ -34,7 +34,7 @@ export default {
     {
       "sku": "000002",
       "title": "Speedo Mens Avalon Heritage Watershort",
-      "image": "http://listingslab.com/wp-content/uploads/2017/06/sp1539a6220.960_mens_avalon_heritage_watershort_3.1484384302.jpg",
+      "image": "/skin/frontend/base/default/images/aligent/cartcheckitout/products/sp1539a6220.960_mens_avalon_heritage_watershort_3.1484384302.jpg",
       "desc": "Speedo Mens Avalon Heritage Watershort",
       "size": "14",
       "colour": "Orange",

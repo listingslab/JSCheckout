@@ -134,13 +134,13 @@ export default class ControllerDeliveryPayment {
     jQuery('.payment-option').hover(
       function(event) {
         if (event.target.id !== this.main.m.data.order.paymentMethod){
-          event.target.src = `http://listingslab.com/wp-content/uploads/2017/06/${event.target.id}_over.png`;
+          event.target.src = `/skin/frontend/base/default/images/aligent/cartcheckitout/payment/${event.target.id}_over.png`;
         }
       }.bind(this),
 
       function(event) {
         if (event.target.id !== this.main.m.data.order.paymentMethod) {
-          event.target.src = `http://listingslab.com/wp-content/uploads/2017/06/${event.target.id}.png`;
+          event.target.src = `/skin/frontend/base/default/images/aligent/cartcheckitout/payment/${event.target.id}.png`;
         }
       }.bind(this)
     );

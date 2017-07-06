@@ -191,25 +191,25 @@ export default class Model {
         jQuery('#card-div').fadeIn(this.main.m.data.config.animationDuration);
         jQuery('#paypal-div').hide();
         jQuery('#afterpay-div').hide();
-        jQuery('#card').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/card_over.png');
-        jQuery('#paypal').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/paypal.png');
-        jQuery('#afterpay').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/afterpay.png');
+        jQuery('#card').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/card_over.png');
+        jQuery('#paypal').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/paypal.png');
+        jQuery('#afterpay').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/afterpay.png');
         break;
       case 'paypal':
         jQuery('#card-div').hide();
         jQuery('#paypal-div').fadeIn(this.main.m.data.config.animationDuration);
         jQuery('#afterpay-div').hide();
-        jQuery('#card').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/card.png');
-        jQuery('#paypal').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/paypal_over.png');
-        jQuery('#afterpay').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/afterpay.png');
+        jQuery('#card').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/card.png');
+        jQuery('#paypal').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/paypal_over.png');
+        jQuery('#afterpay').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/afterpay.png');
         break;
       case 'afterpay':
         jQuery('#card-div').hide();
         jQuery('#paypal-div').hide();
         jQuery('#afterpay-div').fadeIn(this.main.m.data.config.animationDuration);
-        jQuery('#card').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/card.png');
-        jQuery('#paypal').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/paypal.png');
-        jQuery('#afterpay').attr('src', 'http://listingslab.com/wp-content/uploads/2017/06/afterpay_over.png');
+        jQuery('#card').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/card.png');
+        jQuery('#paypal').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/paypal.png');
+        jQuery('#afterpay').attr('src', '/skin/frontend/base/default/images/aligent/cartcheckitout/payment/afterpay_over.png');
         break;
       default:
     }

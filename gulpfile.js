@@ -43,14 +43,14 @@ gulp.task('init', ['js', 'js_min', 'css', 'css_min'], function() {
   gulp.watch('src/**/*.js', ['js', 'js_min']);
   gulp.watch('src/**/*.scss', ['css', 'css_min']);
   gulp.watch('stanadlone/*.html', ['inject']);
-  browserSync.init({
-    server: "./standalone"
-  });
+  // browserSync.init({
+  //   server: "./standalone"
+  // });
 });
 
 // inject html
 gulp.task('inject', () => gulp.src('standalone/*.html')
-  .pipe(browserSync.stream())
+  //.pipe(browserSync.stream())
 );
 
 
@@ -72,7 +72,7 @@ gulp.task('js', function(){
     .pipe(buffer())
     .pipe(gulp.dest('./standalone/js'))
     .pipe(gulp.dest(JSfileDestination))
-    .pipe(browserSync.stream())
+    //.pipe(browserSync.stream())
 });
 
 // Minify JavaScript & create sourcemap
@@ -96,7 +96,7 @@ gulp.task('js_min', function(){
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./standalone/js'))
     .pipe(gulp.dest(JSfileDestination))
-    .pipe(browserSync.stream())
+    //.pipe(browserSync.stream())
 });
 
 // Pre-process Sass into CSS3 & copy to build/css/ with a sourcemap
@@ -108,7 +108,7 @@ gulp.task('css', () => gulp.src('src/scss/*.scss')
   .pipe(rename(`${CSSfileName}.css`))
   .pipe(gulp.dest('standalone/css'))
   .pipe(gulp.dest(CSSfileDestination))
-  .pipe(browserSync.stream())
+  //.pipe(browserSync.stream())
 );
 
 // Pre-process Sass into minified CSS3 & with sourcemap
@@ -126,5 +126,5 @@ gulp.task('css_min', () => gulp.src('src/scss/*.scss')
   }))
   .pipe(gulp.dest('standalone/css'))
   .pipe(gulp.dest(CSSfileDestination))
-  .pipe(browserSync.stream())
+  //.pipe(browserSync.stream())
 );

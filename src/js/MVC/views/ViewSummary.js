@@ -56,7 +56,7 @@ export default class ViewSummary {
       html += div;
     }
     html += `<a
-                href="?shoppingbag=true"
+                href="/checkout/cart/"
                 title="back"
                 class="black-link font-small"
                 >&lt; Back to Shopping Bag</a>`;

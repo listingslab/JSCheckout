@@ -43,6 +43,7 @@ jQuery( document ).ready(function() {
   // What version are we? Change this up in /package.json
   const vs = `${packageJSON.name} vs ${packageJSON.version}\n`;
   console.log (vs);
+  console.log (CartCheckItOut);
 
   // Show the initial screens after a moment's loading delay (to simulate ajax loading)
   setTimeout(function(){
@@ -58,5 +59,7 @@ jQuery( document ).ready(function() {
   }else{
     main.m.debugger();
   }
+
+
 
 });

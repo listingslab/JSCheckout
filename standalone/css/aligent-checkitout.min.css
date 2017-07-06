@@ -3,7 +3,7 @@
 @media(max-width:768px){#aligent-checkitout .flex-grid{display:block}}#aligent-checkitout{background:white}
 #aligent-checkitout .instructions{margin-top:45px}#aligent-checkitout #debugger{border:0;margin:auto;width:750px;height:700px;font-size:16px;line-height:17px}
 #aligent-checkitout :focus{outline:0}#aligent-checkitout .right-align{text-align:right}
-#aligent-checkitout .input-ticked{background-image:url("http://listingslab.com/wp-content/uploads/2017/06/input-tick.png");background-repeat:no-repeat;background-position:right}
+#aligent-checkitout .input-ticked{background-image:url("/skin/frontend/base/default/images/aligent/cartcheckitout/input-tick.png");background-repeat:no-repeat;background-position:right}
 #aligent-checkitout .input-error{transition:border-color 750ms ease-out;border:1px solid #f88379}
 #aligent-checkitout .input-error-fade{transition:border-color 750ms ease-out;border:1px solid #e3e4e6}
 #aligent-checkitout .uppercase-field{text-transform:uppercase}#aligent-checkitout .email-form{margin-top:25px}

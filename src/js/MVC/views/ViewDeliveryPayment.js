@@ -270,7 +270,7 @@ export default class ViewDeliveryPayment {
                   class="payment-option"
                   id="card"
                   alt="Pay with credit card"
-                  src="http://listingslab.com/wp-content/uploads/2017/06/card.png"
+                  src="/skin/frontend/base/default/images/aligent/cartcheckitout/payment/card.png"
               />
           </div>
           <div class="paypal">
@@ -279,7 +279,7 @@ export default class ViewDeliveryPayment {
                   height="57"
                   id="paypal"
                   alt="Pay with PayPal"
-                  src="http://listingslab.com/wp-content/uploads/2017/06/paypal.png"
+                  src="/skin/frontend/base/default/images/aligent/cartcheckitout/payment/paypal.png"
               />
           </div>
           <div class="afterpay">
@@ -288,7 +288,7 @@ export default class ViewDeliveryPayment {
                   height="57"
                   id="afterpay"
                   alt="Pay with Afterpay"
-                  src="http://listingslab.com/wp-content/uploads/2017/06/afterpay.png"
+                  src="/skin/frontend/base/default/images/aligent/cartcheckitout/payment/afterpay.png"
               />
           </div>
         </div>

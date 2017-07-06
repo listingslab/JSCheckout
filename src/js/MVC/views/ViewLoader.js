@@ -33,7 +33,7 @@ export default class ViewLoader {
         <div class="loader">
             <img
                 alt="${message}"
-                src="http://listingslab.com/wp-content/uploads/2017/06/ajax-loader.gif"
+                src="/skin/frontend/base/default/images/aligent/cartcheckitout/ajax-loader.gif"
             />
             &nbsp;&nbsp;&nbsp;${message}
         </div>
